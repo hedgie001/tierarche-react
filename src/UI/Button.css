@@ -1,0 +1,34 @@
+button{
+    width: 120px;
+    cursor: pointer;
+    height: 44px;
+    font-size: 18px;
+    border: none;
+    background: #92bf20;
+    color: white;
+    border-radius: 18px;
+    font-weight: 300;
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 2px;
+    transition: background-color 200ms ease-in;
+}
+button:hover{
+    background: #afe22e;
+}
+button:focus{
+    outline: none;
+}
+@media only screen and (min-width : 480px) {
+    button{
+        width: 200px;
+    }
+}
+.button---secondary{
+    background: transparent;
+    border: 2px solid #92bf20;
+    color: #92bf20;;
+}
+.button---secondary:hover{
+    background: #92bf20;
+    color: white;
+}

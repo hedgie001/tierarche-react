@@ -1,0 +1,59 @@
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.row.dark{
+    background: #FCF7EB;
+}
+.row .container, .row .container-fluid{
+    width: 100%;
+}
+.row .container{
+    width: 100%;
+    margin: 80px 0;
+    padding: 0 15px;
+}
+.row .container-offset-3, .row .container-offset-2{
+     padding: 0 15px;
+ }
+.row aside{
+    flex: 1;
+}
+@media only screen and (min-width : 480px) {
+    .row .container{
+        width: 100%;
+    }
+}
+@media only screen and (min-width : 680px) {
+    .row .container{
+        width: 680px;
+    }
+    .row .container-offset-3{
+        padding: 0 15%;
+    }
+    .row .container-offset-2{
+        padding: 0 15%;
+    }
+}
+@media only screen and (min-width : 768px) {
+    .row .container{
+        width: 768px;
+    }
+}
+@media only screen and (min-width : 992px) {
+    .row .container{
+        width: 992px;
+    }
+    .row .container-offset-3{
+        padding: 0 15%;
+    }
+    .row .container-offset-2{
+        padding: 0 10%;
+    }
+}
+@media only screen and (min-width : 1200px) {
+    .row .container{
+        width: 1200px;
+    }
+
+}

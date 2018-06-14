@@ -1,0 +1,29 @@
+{
+  "name": "tierarche-react",
+  "version": "0.1.0",
+  "private": true,
+  "repository": "https://github.com/hedgie001/tierarche-react",
+  "dependencies": {
+    "@types/react-router-dom": "^4.2.7",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-facebook": "^5.0.3",
+    "react-router-dom": "next",
+    "react-scripts-ts": "2.16.0",
+    "react-video-play": "^2.0.3",
+    "sanitize-html-react": "^1.13.0"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.0.0",
+    "@types/node": "^10.3.2",
+    "@types/react": "^16.3.17",
+    "@types/react-dom": "^16.0.6",
+    "typescript": "^2.9.1"
+  }
+}

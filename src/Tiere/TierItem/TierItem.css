@@ -1,0 +1,30 @@
+.tier-item{
+    width: 33%;
+    margin: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tier-item___image-container{
+    width: 70%;
+    border-radius: 50%;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 21px;
+}
+.tier-item___image-container:after{
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+.tier-item___image-container___circle{
+    position: absolute;
+    width: calc(100% + 8px);
+    height: calc(100% + 8px);
+    margin-left: -4px;
+    margin-top: -4px;
+}
+.tier-item___value{
+    font-size: 32px;
+    margin: 15px 0;
+}
